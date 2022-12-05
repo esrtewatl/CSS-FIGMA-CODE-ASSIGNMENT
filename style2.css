@@ -70,102 +70,10 @@ body{
 h1{
   margin: 3rem;
 }
-@media screen and (max-width: 375px) {
-  .container {
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-  }
 
-  .wrapper {
-      display: flex;
-      flex-direction: column;
-      max-width: 88%;
-  }
-
-  .stats {
-      display: flex;
-      flex-direction: column;
-  }
-
-  .stat-block {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin: 1.6rem;
-  }
-
-  .img-component {
-      order: 1;
-      border-radius: 1rem 1rem 0 0;
-  }
-
-  img {
-      border-radius: 1rem 1rem 0 0;
-  }
-
-  .img-desktop {
-      display: none;
-  }
-
-  .img-mobile {
-      display: block;
-      width: 100%;
-  }
-
-  .pink {
-      border-radius: 1rem 1rem 0 0;
-  }
-
-  .text-component {
-      order: 2;
-      padding: 10%;
-  }
-
-  h1 {
-      font-size: 2.6rem;
-      text-align: center;
-      line-height: 3.6rem;
-      margin-bottom: 1.2rem;
-  }
-
-  .subtitle {
-      text-align: center;
-      width: 100%;
-  }
-}
-
-@media screen and (max-width: 1050px) {
-  .stat-title {
-      font-size: 1.1rem;
-
-  }
-
-  .text-component {
-
-  }
-
-  .block {
-      width: 100%;
-  }
-
-  h1{
-      font-size: 3.2rem;
-      line-height: 3.8rem;
-      margin-bottom: 2rem;
-  }
-
-  .subtitle {
-      width: 100%;
-      font-size: 1.6rem;
-      line-height: 2.4rem;
-      letter-spacing: 0.5px;
-  }
-}
 
 @media screen and (max-width: 980px){
-  .container {
+  .flex-container {
       /* border: 1px solid white; */
       height: 100%;
       min-height: 100vh;
@@ -173,7 +81,7 @@ h1{
       align-items: center;
       justify-content: center;
   }
-  .wrapper {
+  .wrap {
       display: flex;
       flex-direction: column;
       max-width: 78%;
@@ -184,7 +92,7 @@ h1{
       flex-wrap: wrap;
   }
 
-  .stat-block {
+  .stat-line {
       display: flex;
       flex-direction: column;
       margin: 1.6rem;
