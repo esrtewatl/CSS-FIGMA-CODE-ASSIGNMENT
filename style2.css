@@ -1,0 +1,72 @@
+*{
+  box-sizing: border-box;
+
+  
+}
+body{
+  font-family: 'Inter', sans-serif;
+}
+.flex-container{
+  display:flex;
+  background-color: #1B1937; 
+  color: #FFFFFF;
+  width: min-content;
+ 
+
+
+
+  flex-direction: column;
+}
+.text{
+  /*width: 400px;*/
+
+  margin: auto;
+
+ 
+
+  
+ 
+}
+.stats{
+  display: flex;
+ 
+ margin: 0;
+
+}
+.stat-line{
+  margin: 55px;
+  justify-content: space-between;
+ align-items: center;
+
+
+
+ 
+
+}
+.purple{
+  color: purple !important;
+
+}
+.purpleimg{
+
+
+
+}
+.wrap{
+  display: flex;
+  flex-direction: row;
+ 
+ 
+ 
+}
+.p{
+  margin: 3rem;
+ 
+
+}
+.image{
+  height: 100%;
+}
+h1{
+  margin: 3rem;
+}
